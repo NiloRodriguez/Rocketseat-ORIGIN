@@ -31,7 +31,7 @@ window.addEventListener('scroll', function () {
   }
 })
 
-/* Testimonials carousel slider swaper */
+/* Testimonials carousel slider swiper */
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
@@ -41,7 +41,7 @@ const swiper = new Swiper('.swiper-container', {
   keyboard: true
 })
 
-/*ScrollReveal: Mostrar elementos quando der scroll na página*/
+/* ScrollReveal: Mostrar elementos quando der scroll na página */
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
@@ -53,7 +53,7 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials,
+  #testimonials header, #testimonials .testimonials
   #contact .text, #contact .links
   `,
   { interval: 100 }

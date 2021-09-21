@@ -360,7 +360,7 @@ nav.show div.icon-close {
   background: white;
 }
 
-testimonials .container {
+#testimonials .container {
   margin-left: 0;
   margin-right: 0;
 }
@@ -385,9 +385,9 @@ testimonials .container {
 }
 
 #testimonials blockquote p span {
-  font: 700 3rem serif;
+  font: 700 2.5rem serif;
   position: absolute;
-  top: -0.8rem;
+  top: -0.375rem;
   left: -1.875rem;
   color: var(--base-color);
 }
@@ -406,7 +406,7 @@ testimonials .container {
   margin-right: 0.5rem;
 }
 
-/*Swipper*/
+/*swipper*/
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
